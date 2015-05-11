@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	color: #fff;
+	background: #293f50;
+}
+
+.container {
+	margin: 0 auto;
+	border: 1px solid #FF0000;
+	padding-top: 50px;
+	max-width: 960px;
+}
+
+.primary-nav {
+	border: 1px solid #FF0000;
+	padding: 10px 0;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.name-title {
+	margin-top: 90px;
+	text-align: center;
+}
+
+.professional,
+.connect {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding-top: 90px;
+	text-align: center;
+	color: #fff;
+	max-width: 960px;
+}
+
+.about,
+.business-solutions {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding-top: 90px;
+	text-align: center;
+	color: #000;
+	background: #fff;
+}
+
+div.text {
+	max-width: 960px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border: 1px solid red;
+	text-align: left;
+}
+
+nav {
+	padding-right: 30px;
+	text-align: right;
+	vertical-align: top;
+}
+
+h1 {
+	padding: 30px 0 20px 0;
+}
+
+h3, h4 {
+	margin: 0;
+}
+
+.copyright {
+	margin: 0 auto;
+	border: 1px solid #FF0000;
+	text-align: center;
+	padding-left: 5px;
+	padding-top: 90px;
+	padding-right: 5px;
+	max-width: 960px;
+}
+
+.arrow-contain {
+	border: 1px solid red;
+	margin: 0 auto;
+	padding-top: 30px;
+	max-width: 960px;
+}
+
+.next-arrow {
+	border: 1px solid #ff0000;
+	margin: 0 auto;
+	width: 10%;
+	height: auto;
+}
+
+.connect-icons {
+	max-width: 960px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.col-1-3 {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid red;
+	margin: 0 0;
+	padding: 20px 0;
+	width: 33.33%;
+	height: auto;
+	text-align: center;
+}
+
+/*
+==========================
+Backgrounds
+==========================
+*/
+
+.waldo {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding: 150px 0;
+	text-align: center;
+	color: #000;
+	background-image: url("http://i.imgur.com/Bl9ZQQG.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 50% 40px;
+}
+
+.waldo2 {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding: 150px 0;
+	text-align: center;
+	color: #000;
+	background-image: url("http://i.imgur.com/auEx3XS.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.waldo3 {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding: 150px 0;
+	text-align: center;
+	color: #000;
+	background-image: url("http://jokideo.com/wp-content/uploads/2013/05/Lets-play-a-game-Wheres-wally-waldo.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.waldo4 {
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	padding: 150px 0;
+	text-align: center;
+	color: #000;
+	background-image: url("http://i.imgur.com/ea9flH7.jpg");
+	background-position: right bottom;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/*
+==========================
+Typeface
+==========================
+*/
+
+body {
+	font: 400 16px/22px "Proxima Nova Soft", Helvita, Arial, sans-serif;
+}
+
+a.top-nav {
+	border: 1px solid red;
+	padding: 10px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.top-nav:hover {
+	color: black;
+	background: #FFD734;
+}
+
+h1 {
+	font-size: 62px;
+}
+h3 {
+	font-size: 36px;
+	padding-bottom: 30px;
+}
+h4 {
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+
+p {
+	padding-bottom: 30px;
+}
+
+small {
+	font-size: 10px;
+}
+
+/*
+==========================
+Image
+==========================
+*/
+
+.headshot {
+	display: inline-block;
+	border: 1px solid #ff0000;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 300px;
+	height: auto;
+}
+
+
